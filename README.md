@@ -9,9 +9,12 @@ Try running the following commands:
 - dbt snapshot
 - dbt compile
 - dbt test
-
+- dbt deps (installing packages and dependencies)
+- dbt docs generate
+- dbt build (run + test)
 
 ### Resources:
+- ad23315.ap-south-1.aws.snowflakecomputing.com
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support

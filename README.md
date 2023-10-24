@@ -13,6 +13,8 @@ Try running the following commands:
 - dbt docs generate
 - dbt docs serve (for documenation, using default dbt lightweight server)
 - dbt build (run + test)
+- dbt test --select model_name
+- dbt test --select source:db.table_name
 
 ### Resources:
 - ad23315.ap-south-1.aws.snowflakecomputing.com

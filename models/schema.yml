@@ -1,6 +1,7 @@
 version: 2
 models:
   - name: dim_listings_cleaned
+    description: "This is a cleansed listing table."
 columns:
      - name: listing_id
        tests:
@@ -20,5 +21,6 @@ columns:
                       'Shared room',
                       'Hotel room']
      - name: minimum_nights
+       description: '{{ doc("dim_listing_cleansed_minimum_nights") }}'
        tests:
         - positive_value

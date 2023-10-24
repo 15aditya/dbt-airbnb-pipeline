@@ -11,6 +11,7 @@ Try running the following commands:
 - dbt test
 - dbt deps (installing packages and dependencies)
 - dbt docs generate
+- dbt docs serve (for documenation, using default dbt lightweight server)
 - dbt build (run + test)
 
 ### Resources:
